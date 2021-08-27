@@ -11,7 +11,7 @@ public class Main_BJ_10163_색종이_0827 {
 		for(int t = 1; t <= N; t++) {
 			int x = sc.nextInt(); // x좌표
 			int y = sc.nextInt(); // y좌표
-			int w = sc.nextInt(); // 너비
+			int w = sc.nextInt(); // 너비 
 			int h = sc.nextInt(); // 높이
 
 			// 색종이 크기만큼 돌면서 평면 채우기
