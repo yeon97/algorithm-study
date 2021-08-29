@@ -48,7 +48,7 @@ public class Main_JUNGOL_1037_오류교정 {
 		if(noCol == 0 && noRow == 0) {
 			System.out.println("OK");
 		} else if(noCol == 1 && noRow == 1) {
-			System.out.println("Change bit (" + (rowNum+1) +", "+ (colNum+1) + ")");
+			System.out.println("Change bit (" + (rowNum+1) +","+ (colNum+1) + ")");
 		} else {
 			System.out.println("Corrupt");
 		}

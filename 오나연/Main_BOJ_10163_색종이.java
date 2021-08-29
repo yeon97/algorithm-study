@@ -11,7 +11,7 @@ public class Main_BOJ_10163_색종이 {
 		StringTokenizer st;
 		
 		int cnt = Integer.parseInt(br.readLine());
-		int[][] map = new int[101][101];
+		int[][] map = new int[1001][1001];
 		int[] colorCnt = new int[cnt+1];
 		
 		for(int i=1; i<=cnt; i++) {
@@ -27,8 +27,8 @@ public class Main_BOJ_10163_색종이 {
 			}
 		}
 		
-		for(int j=0; j<101; j++) {
-			for(int k=0; k<101; k++) {
+		for(int j=0; j<1001; j++) {
+			for(int k=0; k<1001; k++) {
 				if(map[j][k] != 0) {
 					colorCnt[map[j][k]]++;
 				}
