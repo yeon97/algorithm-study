@@ -16,7 +16,7 @@ public class Solution_SWEA_D3_5215_햄버거다이어트_DP_0914 {
 			int N = Integer.parseInt(st.nextToken());
 			int L = Integer.parseInt(st.nextToken());
 			int[] score = new int[N+1];
-			int[] kcal = new int[N+1]; 
+			int[] kcal = new int[N+1];
 			
 			for(int i=1; i<=N; i++) {
 				st = new StringTokenizer(br.readLine());
