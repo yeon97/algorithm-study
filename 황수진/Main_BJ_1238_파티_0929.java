@@ -6,7 +6,10 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-
+/*
+ 메모리 : 17116KB
+ 시간 : 216ms
+ */
 public class Main_BJ_1238_파티_0929 {
 	private static class Node implements Comparable<Node> {
 		int des; 
