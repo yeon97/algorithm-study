@@ -8,6 +8,11 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
+
+/*
+ 메모리 : 144324 KB
+ 속도 : 1800 ms
+*/
 public class Main_BOJ_1202_보석도둑_0925_ {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
