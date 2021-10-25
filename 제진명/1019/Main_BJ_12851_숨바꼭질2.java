@@ -3,6 +3,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/*
+ * 		메모리 : 13800KB		시간 : 528ms
+ */
+
 public class Main_BJ_12851_숨바꼭질2 {
 	static int ans, cnt, end; // ans 가장 빠른시간 cnt 방법의 수 end 최대 좌표 길이
 	static int N, K;
