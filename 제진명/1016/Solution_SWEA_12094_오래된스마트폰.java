@@ -6,6 +6,10 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/*
+ *  	메모리 : 111,152 KB		시간 : 1998ms
+ */
+
 public class Solution_SWEA_12094_오래된스마트폰 {
 	
 	static int N, O, M, W, ans;
