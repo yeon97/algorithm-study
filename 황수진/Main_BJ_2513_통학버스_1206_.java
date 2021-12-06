@@ -1,5 +1,3 @@
-package month12;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -11,7 +9,7 @@ import java.util.StringTokenizer;
  메모리 : 25128KB
  시  간 : 444ms
  */
-public class Main_BJ_2513_통학버스_1206_ {
+public class Main_BJ_2513_통학버스_1206 {
 
 	public static class Apt implements Comparable<Apt> {
 		int loc;
