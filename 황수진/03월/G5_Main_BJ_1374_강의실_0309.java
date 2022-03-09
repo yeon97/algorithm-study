@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
+/*
+ 메모리 : 56796KB 
+ 시  간 : 680ms
+*/
 public class G5_Main_BJ_1374_강의실_0309 {
 	
 	static class classroom implements Comparable<classroom> {
@@ -52,8 +56,8 @@ public class G5_Main_BJ_1374_강의실_0309 {
 			classroom cur = rooms[i];
 			
 			// 큐가 비어있지 않고
-			// 우선순위 큐의 root가 현재 강의 시작 시간보다 작다 = 강의 시간이 겹치지 않는다
-			while(!pq.isEmpty() && pq.peek() < cur.s) {
+			// 우선순위 큐의 root가 현재 강의 시작 시간보다 작거나 같다 = 강의 시간이 겹치지 않는다
+			while(!pq.isEmpty() && pq.peek() <= cur.s) {
 				// 끝난 강의 제거
 				pq.poll();
 			}
