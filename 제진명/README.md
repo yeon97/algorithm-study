@@ -1,2 +1,2 @@
 mattermost notification test
-mattermost gitlab bot test2
+mattermost gitlab bot test3
